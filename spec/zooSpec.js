@@ -1,9 +1,9 @@
 var Animal = require('../src/animal.js'),
 Zoo = require('../src/zoo.js');
 
-var animal;
-var zoo;
-var openZoo;
+// var animal;
+// var zoo;
+// var openZoo; science
 
 // general notes:
 // you typically only want one assertion per test
@@ -75,8 +75,8 @@ describe('Zoo', function(){
 
     it('should only add instances of animals', function(){
       //check the length of the animals array before and after like the other comments
-      var origLength = openZoo.animals.length;
-      openZoo.addAnimal("cow");
+      // var origLength = openZoo.animals.length; science
+      // openZoo.addAnimal("cow"); science
       expect(openZoo.animals.length).toEqual(origLength);
     });
 
